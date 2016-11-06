@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
             if (i % 3 == 0 || Integer.toString(i).contains("3")) {
                 ret += "アホ";
             } else if (i== 40) {
+                // 40は締めっぽい感じにする。
                 ret += "ぃよんじゅう！";
             }
             else{
